@@ -94,3 +94,39 @@ Para finalizar con las interfaces correspondientes a las colecciones en java, de
 
 
 ----------------------------------------------------------------------------------
+
+#*Java Collections Framework*:question:
+
+>Es una arquitectura unificada para representar y manipular colecciones . Contiene interfaces, sus clases de implementación y algoritmos para procesar los datos almacenados en una colección. La interfaz de Colección se amplía con otras interfaces como Lista, Conjunto y Cola.
+
+:star2:**Nota :** También hay una interfaz de Mapa, pero no implementa la interfaz de Colección porque almacena pares clave-valor, y las clases que vienen bajo la interfaz de Colección solo almacenan valores.
+
+**Diferencias entre el marco de colecciones y las colecciones :**
+* Colecciones Framework es una interfaz, mientras que Colecciones es una clase.
+* La interfaz de Colección brinda la funcionalidad estándar de estructuras de datos para Lista , Establecer y Cola . La clase Colecciones proporciona métodos estándar que puede utilizar para buscar, ordenar y coordinar elementos de colección.
+* Las colecciones son objetos que representan un grupo de objetos (como Vector ), mientras que el marco de colecciones puede representar y manipular colecciones.
+
+**Los componentes de Java Collections Framework**
+> **Interfaces :** estas interfaces proporcionan el tipo de datos abstracto para representar la colección. **El java.util.Collectiones** la interfaz raíz del marco. Es en la parte superior de la jerarquía del marco y contiene métodos importantes, como **size(), iterator(), add(), remove(), y clear().**
+
+La interfaz iterable es la raíz de todo el marco de la colección. Permite que el iterador recorra todas las colecciones. Todas las clases e interfaces utilizan esta interfaz. La interfaz de la colección extiende la interfaz iterable y es ejecutada por las clases en el marco de la colección. La interfaz de lista inhibe una estructura de datos de tipo lista donde podemos almacenar colecciones ordenadas de objetos.
+
+**Algunas interfaces más importantes incluyen:**
+* Interfaz de mapa: **java.util.Map**
+* Establecer interfaz: **java.util.Set**
+* Interfaz deque: **java.util.Deque**
+
+:star2:**Nota :** La interfaz del mapa es la única que no hereda de la interfaz de la colección, pero está incluida en el marco de las colecciones. Todas las interfaces del marco están en el paquete java.util.
+
+> **Clases de implementación :** el marco proporciona clases de implementación para colecciones. Puede usarlos para crear diferentes tipos de colecciones en sus programas Java. Algunas de las principales clases de recolección incluyen: 
+
+* **ArrayList**
+* **LinkedList**
+* **PriorityQueue**
+* **HashMap** y **HashSet**
+* **TreeMap** y **TreeSet**
+
+ >Algoritmos : estos algoritmos realizan funciones importantes en colecciones, como ordenar listas.
+
+ ***La jerarquía del marco de colecciones es la siguiente:***
+ ![Face Logo](https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=1800/api/page/5582979315793920/image/download/6709185406828544)
